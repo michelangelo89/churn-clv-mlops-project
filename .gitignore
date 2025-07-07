@@ -1,0 +1,6 @@
+# MLflow local files
+backend.db
+mlruns/
+
+# Data files
+data/
