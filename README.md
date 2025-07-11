@@ -1,7 +1,3 @@
-Perfect! Here’s a README-style summary you can include in your project documentation, GitHub repo, or portfolio:
-
-⸻
-
 🧠 Churn Prediction Web Service
 
 This project demonstrates how to train a machine learning pipeline, deploy it as a Flask API, and serve predictions for customer churn risk using HTTP requests.
@@ -109,12 +105,3 @@ churn-clv-mlops-project/
 
 ⸻
 
-🚧 Next Steps
-	•	Add Dockerfile to containerize the web service
-	•	Add request validation (e.g., with pydantic)
-	•	Deploy to cloud (e.g., AWS EC2, Heroku)
-	•	Add monitoring (Prometheus, logs, alerts)
-
-⸻
-
-Let me know if you’d like me to generate this as a downloadable README.md file or paste it into your project automatically!
