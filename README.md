@@ -64,30 +64,31 @@ make clean
 
 ⸻
 
-✅ Features Implemented
-	•	✅ Data pipeline for preprocessing
-	•	✅ MLflow tracking + model registry
-	•	✅ Prefect flow for training orchestration
-	•	✅ Flask API in Docker container
-	•	✅ Logging of predictions to file
-	•	✅ Basic unit test via Pytest
-	•	✅ Makefile for automation
+## ✅ Features Implemented
 
-⸻
+- ✅ Data pipeline for preprocessing
 
-📊 Dataset
+- ✅ MLflow tracking + model registry
 
-Source: BankChurners.csv (public dataset)
+- ✅ Prefect flow for training orchestration
+
+- ✅ Flask API in Docker container
+
+- ✅ Logging of predictions to file
+
+- ✅ Basic unit test via Pytest
+
+- ✅ Makefile for automation
+
+## 📊 Dataset
+Source: BankChurners.csv (public dataset)  
 Includes demographics, usage behavior, and product info for 10,000+ customers.
 
-⸻
+## 📌 Project Status
+- ✔️ Churn model deployed locally in Docker
 
-📌 Project Status
-	•	✔️ Churn model deployed locally in Docker
-	•	🔜 Future plans:
-	•	CI/CD via GitHub Actions
-	•	Cloud deployment (S3 / ECR / EC2)
-	•	Real-time monitoring (Evidently, Prometheus)
+- 🔜 CI/CD via GitHub Actions
 
-⸻
+- 🔜 Cloud deployment (S3 / ECR / EC2)
 
+- 🔜 Real-time monitoring (Evidently, Prometheus)
