@@ -27,15 +27,17 @@ The pipeline predicts whether a customer will churn based on behavior and engage
 
 ## 📁 Key Folders
 
+```bash
 churn-clv-mlops-project/
-├── data/               → Raw, processed, and prediction datasets
-├── scripts/            → Scripts for training, predicting, and monitoring
-├── src/                → Modularized code: data, features, models
-├── web_service/        → Flask API to serve the model
-├── orchestration/      → Prefect flow for training pipeline
-├── models/             → MLflow exported model artifacts
-├── monitoring/         → Data drift reporting with Evidently
-├── tests/              → Unit test(s)
+├── data/           → Raw, processed & prediction datasets  
+├── scripts/        → Scripts for training, predicting, and monitoring  
+├── src/            → Modularized code: data, features, models  
+├── web_service/    → Flask API to serve the model  
+├── orchestration/  → Prefect flow for training pipeline  
+├── models/         → MLflow exported model artifacts  
+├── monitoring/     → Data drift reporting with Evidently  
+└── tests/          → Unit test(s)
+```
 
 ---
 
