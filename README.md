@@ -43,9 +43,10 @@ churn-clv-mlops-project/
 
 ## 🧪 How to Use
 
-1. 🏋️‍♀️ **Train the Model**
-   ```bash
-   make train
+	1.	🏋️‍♀️ Train the Model
+
+make train
+
 
 	2.	🚀 Serve the API
 
@@ -61,7 +62,6 @@ make test-predict
 	4.	🧹 Clean Up
 
 make clean
-
 
 
 ⸻
