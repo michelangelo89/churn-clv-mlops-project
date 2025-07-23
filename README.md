@@ -43,25 +43,26 @@ churn-clv-mlops-project/
 
 ## 🧪 How to Use
 
-	1.	🏋️‍♀️ Train the Model
+
+1. 🏋️‍♀️ Train the Model
 
 make train
 
-
-	2.	🚀 Serve the API
+2. 🚀 Serve the API
 
 make docker-build
 make docker-run
 
-
-	3.	📬 Test the API
+3. 📬 Test the API
 
 make test-predict
 
-
-	4.	🧹 Clean Up
+4. 🧹 Clean Up
 
 make clean
+
+
+⸻
 
 
 ⸻
