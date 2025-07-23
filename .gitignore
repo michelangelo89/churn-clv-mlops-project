@@ -4,3 +4,5 @@ mlruns/
 
 # Data files
 data/
+
+echo "logs/" >> .gitignore

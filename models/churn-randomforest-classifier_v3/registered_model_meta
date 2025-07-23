@@ -1,0 +1,2 @@
+model_name: churn-randomforest-classifier
+model_version: '3'

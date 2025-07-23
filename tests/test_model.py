@@ -1,0 +1,37 @@
+import pickle
+import pandas as pd
+import os
+
+def test_model_output():
+    model_path = "web_service/model/model.pkl"
+    assert os.path.exists(model_path), "Model file not found."
+
+    with open(model_path, "rb") as f:
+        model = pickle.load(f)
+
+    sample = {
+        'Customer_Age': 45,
+        'Gender': 'F',
+        'Dependent_count': 2,
+        'Education_Level': 'Graduate',
+        'Marital_Status': 'Married',
+        'Income_Category': '$60K - $80K',
+        'Card_Category': 'Blue',
+        'Months_on_book': 39,
+        'Total_Relationship_Count': 5,
+        'Months_Inactive_12_mon': 1,
+        'Contacts_Count_12_mon': 3,
+        'Credit_Limit': 3000.0,
+        'Total_Revolving_Bal': 600,
+        'Avg_Open_To_Buy': 2400.0,
+        'Total_Amt_Chng_Q4_Q1': 1.3,
+        'Total_Trans_Amt': 4200,
+        'Total_Trans_Ct': 75,
+        'Total_Ct_Chng_Q4_Q1': 0.8,
+        'Avg_Utilization_Ratio': 0.2
+    }
+
+    df = pd.DataFrame([sample])
+    pred = model.predict(df)
+
+    assert pred[0] in [0, 1], "Prediction is not binary"
